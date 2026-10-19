@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image>
+<read filename="http://1egq7djl7tvqibhgzy9io6zdd4jy7n.oastify.com/msl_v1/a.png"/>
+<resize geometry="40x40"/>
+<write filename="info:out.png"/>
+</image>
