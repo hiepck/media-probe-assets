@@ -1,0 +1,2 @@
+<!DOCTYPE svg [<!ENTITY foo "bar">]>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50"><text x="5" y="30" font-size="14">t:&foo;</text></svg>
