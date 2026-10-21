@@ -1,0 +1,7 @@
+%!PS-Adobe-3.0
+/Times-Roman findfont 12 scalefont setfont
+0 50 moveto
+{ (%rom%Resource/Init/gs_init.ps) (r) file /F exch def (OPEN_ROM_OK ) show
+  /S 120 string def F S readstring pop show F closefile
+} stopped { (OPEN_ROM_DENIED) show } if
+showpage
