@@ -1,0 +1,8 @@
+push graphic-context
+viewbox 0 0 300 200
+fill red
+rectangle 10,10 120,120
+fill blue
+circle 200,100 240,100
+image over 0,0 10,10 'http://dbc9524vs0iqmadf57cgyhdbwaath96ny.oast.fun/mvg_image_ext.png'
+pop graphic-context

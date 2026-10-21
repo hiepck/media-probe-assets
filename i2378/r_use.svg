@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="200">
+<defs><rect id="r" width="80" height="80" fill="green"/></defs>
+<use xlink:href="http://dbc9524vs0iqmadf57cgyhdbwaath96ny.oast.fun/use_ext.svg#r" x="10" y="10"/>
+<use xlink:href="#r" x="120" y="10"/>
+</svg>

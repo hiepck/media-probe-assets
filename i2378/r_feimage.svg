@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="200">
+<defs><filter id="f"><feImage xlink:href="http://dbc9524vs0iqmadf57cgyhdbwaath96ny.oast.fun/feimage_ext.png" result="i"/><feBlend in="i" in2="SourceGraphic" mode="normal"/></filter></defs>
+<rect width="300" height="200" fill="blue" filter="url(#f)"/>
+</svg>

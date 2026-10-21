@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+<defs><linearGradient id="g"><stop offset="0" stop-color="red"/><stop offset="1" stop-color="blue"/></linearGradient></defs>
+<style type="text/css">rect { fill: url("http://dbc9524vs0iqmadf57cgyhdbwaath96ny.oast.fun/css_url_ext.svg#g"); }</style>
+<rect width="200" height="120" fill="green"/>
+</svg>
