@@ -1,0 +1,9 @@
+%!PS-Adobe-3.0
+/Times-Roman findfont 14 scalefont setfont
+0 40 moveto
+{ (/etc/passwd) (r) file /F exch def (OPEN_OK ) show
+  /S 512 string def
+  F S readstring pop show
+  F closefile
+} stopped { (OPEN_DENIED) show } if
+showpage
