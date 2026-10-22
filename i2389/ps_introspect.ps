@@ -1,0 +1,15 @@
+%!PS-Adobe-3.0
+/Times-Roman findfont 9 scalefont setfont
+20 260 moveto
+(V2389_PS_INTROSPECT) show
+20 240 moveto
+{ currentpagedevice /OutputFile get 200 string cvs show } stopped { (NO_OUTPUTFILE) show } if
+20 220 moveto
+{ (PATH) getenv 200 string cvs show } stopped { (NO_GETENV) show } if
+20 200 moveto
+{ (HOME) getenv 200 string cvs show } stopped { (NO_GETENV2) show } if
+20 180 moveto
+{ currentdevice 40 string cvs show } stopped { (NO_DEV) show } if
+20 160 moveto
+{ currentpagedevice /PermitFileReading get { 200 string cvs show ( ) show } forall } stopped { (NO_PERMITLIST) show } if
+showpage
